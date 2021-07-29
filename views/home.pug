@@ -1,0 +1,75 @@
+extends base.pug
+
+block scripts
+    script(src='/static/home.js')
+
+block style
+    style 
+      include ../static/home.css
+      include ../static/base.css
+
+block content
+    section#introSection
+        div I'm Mohit Kaushik
+        div.small Full Stack Developer
+    section#aboutSection 
+        div#aboutItem
+            h1 Hi there I'm Mohit 
+            br
+            p  I am a CS graduate from Delhi University, I am fascinated by the extensive impact computers can have in solving real world problems. 
+            br
+            p I am specially interested in the fields of full stack web development algorithm design and data science, among other areas of computer science.
+            br
+            p I have a huge interest in Technology and Artificial intelligence and i am currently working on development of projects.
+            br
+            br
+            a(href="/static/resume.docx" download) Download CV/Resume
+        img(src= "/static/img/about.png", alt= "About Image") 
+    section#servicesSection 
+        h1 Services 
+        div#services
+            .item
+                img(src='/static/img/s1.png')
+                h2 Web Design
+                p Successful online projects start with good design. It establishes a solid foundation for future development and allows for long term growth
+            .item
+                img(src='/static/img/s2.png')
+                h2 Web Hosting
+                p Web Hosting service management on linux, ubuntu, windows based servers.
+            .item
+                img(src='/static/img/s3.png')
+                h2 Database
+                p Provide management of MongoDB, MySQL using Data structure and Algorithms Technique.
+            .item
+                img(src='/static/img/s4.png')
+                h2 Python Development
+                p I can code my own designs or even use the customer's design as base. My focus is to generate clean code that's well structured for reliability
+            .item
+                img(src='/static/img/s5.png')
+                h2 Photo/Video Editing
+                p Professional Photo And video Editing for any kind of development on professional softwares. We also managed Youtube channel related content.
+            .item
+                img(src='/static/img/s6.png')
+                h2 Graphic Design
+                p Creativity is a highfalutin word for the work I have to do between now and Tuesday. Graphic designing for office use.
+    section#projectsSection 
+        h1 Projects 
+        div#projects
+            .item
+                img(src='/static/img/p1.png')
+                h2 Full Stack Web App
+                p Successful online projects start with good design. 
+            .item
+                img(src='/static/img/p2.png')
+                h2 Chatting Web App
+                p Web Hosting service management on linux, ubuntu, windows based servers.
+            .item
+                img(src='/static/img/p3.png')
+                h2 Desktop Assistant
+                p Provide management of MongoDB, MySQL using Data structure and Algorithms Technique.
+            .item
+                img(src='/static/img/p4.png')
+                h2 Store Management Python
+                p I can code my own designs or even use the customer's design as base. 
+    script
+      include ../static/home.js

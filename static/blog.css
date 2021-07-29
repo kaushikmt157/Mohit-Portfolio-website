@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cad4dd;
+    font-family: 'STIX Two Math', serif;
+}
+h1{
+    font-size: 7vw;
+    margin: 1.1vw;
+    padding: 2.1vw;
+    margin-top: 6vw;
+    margin-left: 6.44vw;
+    margin-right: 6.44vw;
+    color: #000f44;
+    box-shadow: 0vw 0.73vw 0.51vw rgba(0,0,0,0.3);
+}
+.container{
+    height: 50vw;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 9.22vw;
+    margin-right: 9.22vw;
+    grid-gap: 4rem;
+}
+.container img{
+    height: 17.57vw;
+    padding: 0.73vw;
+    box-shadow: -0.73vw 0.73vw 0.37vw rgb(0 0 0 / 30%);
+}
+.container img:hover{
+    box-shadow: -2.2vw 2.2vw 1.46vw rgba(0,0,0,0.3);
+    transition: all 0.4s ease 0s;
+}
+.blog h2{
+    margin-top: 1.46vw;
+    font-size: 2.56vw;
+
+}
+.blog p{
+    font-size: 1.32vw;
+
+}

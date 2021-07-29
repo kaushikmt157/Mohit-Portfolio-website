@@ -1,0 +1,112 @@
+extends base.pug
+
+block scripts
+      script(src='/static/resume.js')
+
+block style
+    link(rel='stylesheet' href='../static/base.css')
+    link(rel='stylesheet' href='../static/resume.css')
+   
+block content
+    div.container
+        .left 
+            .name
+                h1 Mohit Kaushik 
+                h3 Web Developer 
+            br
+            br
+            h2 Details 
+            br
+            ul 
+                li 70******45
+                li kaushik*****@gmail.com
+            br
+            h2 Links 
+            br
+            ul 
+                li #[a(href="https://in.linkedin.com/in/mohit-kaushik-a48357188?trk=public_profile_browsemap") LinkedIn]
+                li #[a(href="https://github.com/kaushikmt157") GitHub]
+            br
+            h2 Skills 
+            br
+            ul 
+                li HTML 
+                .xp5
+                li CSS 
+                .xp5
+                li JavaScript
+                .xp4 
+                li Node.js
+                .xp4  
+                li Hosting
+                .xp5
+                li Pyhton Programming
+                .xp5 
+                li Data Structures & Algorithms
+                .xp5 
+                li Database Management
+                .xp5
+                li Photo/Video Editing
+                .xp4 
+                li CSA, OS
+                .xp4
+        .right 
+            #topbox
+                .word 
+                    h1 Profile
+                    br
+                    p Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.
+                    br
+                    a(href="/static/resume.docx" download) Download CV/Resume
+                img(src='/static/img/mohit.jpg')
+            #details 
+                h1 Education 
+                br
+                h2 Bachelor of Science, Computer Science 
+                h2 University of Delhi 
+                p July,2018 - July,2021
+                h3 CGPA: 8.7
+                br
+                h4 Courses Completed
+                p Python Programming,  Data Structures and Algorithms, Full Stack Web Designing, Database Management System, Computer System Architecture, Operating System, System Administration and Maintanance, Office automation tools.
+                br
+                h2 10+2 Non-Medical
+                h2 D.A.V Public School, Safidon
+                h3 CGPA: 8.66
+                br
+                br
+                h1 Projects 
+                br
+                h2 Full Stack Portfolio Website
+                a(href='https://github.com/kaushikmt157/Mohit-Protfoli-website.git')
+                ul 
+                    li Built a full stack web applications using semantic tags, template inheritance, Grid, Flex box and created  individual CSS, JS files for each web page.
+                    li All Units are taken in view port width so that design becomes responsive for Every different resolution computer display.
+                    li Used: HTML, CSS, JavaScript, Node.js, Pug, MongoDB
+                br    
+                h2 Chat Application(Realtime)
+                a(href='https://github.com/kaushikmt157/Chat-Web-Application.git')
+                ul 
+                    li Built a realtime chat application using socket.io and node.js in which multiple user can communicate realtime through chat on the same interface (panel) without refreshing the page.
+                    li Multiple user can chat through chat application url at the same time.  
+                    li Used:  Socket.io, HTML, CSS, JavaScript, Node.js
+                br    
+                h2 Sweet Shop Management
+                a(href='https://github.com/kaushikmt157/Sweet-Shop-Management.git')
+                ul 
+                    li Built a Sweet Shop Management Program in python using the concepts of Data Structure and Algorithms. 
+                    li Data is very efficient and accssible through a txt file.
+                    li Used: Python
+                br    
+                h2 Text Editor
+                a(href='https://github.com/kaushikmt157/Text-Editor-Python.git')
+                ul 
+                    li Built a GUI Text Editor in Python using Tkinter module. It support many of the notepad features and Shortcut keys
+                    li The main aim of the program is to learn the concept of Tkinter.
+                    li Used: Python, tkinter
+                    
+
+            
+
+                        
+        

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+    height: 4.83vw;
+    width: 100vw;
+}
+#navbar{
+    position: fixed;
+    font-family: 'Baloo 2', cursive;
+    display: flex;
+    height: 4.83vw;
+    width: 100vw;
+    top: 0;
+}
+
+#logo{
+    display: flex;
+    width: 50vw;
+    margin: 1.02vw;
+    padding: 1.02vw;
+    align-items: center;
+    margin-left: 3.51vw;
+}
+#logo ul{
+    display: flex;
+}
+
+#logo ul li{
+    list-style: none;
+   
+}
+#logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.98vw;
+    
+}
+#logo a img{
+    height: 2.34vw;
+    margin-top: 0.29vw;
+}
+#option{
+    width: 50vw;
+    margin: 1.17vw;
+}
+#option ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#option ul li{
+    list-style: none;
+}
+#option ul li a{ 
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    padding: 1.02vw 1.32vw;
+    font-size: 1.32vw;
+}
+#option li a:hover{
+    color: rgb(255, 255, 255);  
+}
+#footer{
+    background-color: #102127;
+    height: 22vw;
+    color: white;
+    font-size: 1.17vw;
+}
+#fikon{
+    padding: 3.95vw;
+}
+#fikon ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.46vw;
+    padding: 1.46vw;
+}
+#fikon ul li{
+    list-style: none;
+}
+#fikon ul li a img{
+    border-radius: 5.86vw;
+    margin: 1.46vw;
+    height: 3.66vw;
+}

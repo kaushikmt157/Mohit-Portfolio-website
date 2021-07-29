@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts
+      script(src='/static/blog.js')
+
+block style
+    link(rel='stylesheet' href='../static/base.css')
+    link(rel='stylesheet' href='../static/blog.css')
+   
+block content
+    h1 Full Stack python 
+    div.container
+        div.blog
+            h2 GitPython and New Git Tutorials
+            br
+            p First Steps with GitPython is a quick tutorial that shows how to get started using the awesome GitPython  library for programmatically interacting with Git repositories in your Python applications. In the spirit of the     thank you maintainers issue ticket I wrote about last newsletter, I opened a quick "non-issue" ticket for the   GitPython developers to thank them. Give them a thank you +1 if you've used the project and also found it useful.
+            br
+            p Flight rules for Git
+            p Git back to the future
+            p Shadows Of The Past: Analysis Of Git Repositories
+            p The anatomy of a Git commit
+            br
+            p I also split out the Git page resources into beginner, more advanced, specific use case and workflow sections     so it's easier to parse based on whether you're a Git veteran or still up-and-coming in that area of your   development skills.
+            br
+            p Got questions or comments about Full Stack Python? Send me an email or submit an issue ticket on GitHub to let    me know how to improve the site as I continue to fill in the table of contents with new pages and new tutorials.
+        div#img
+            img(src='/static/img/b1.png')
+            img(src='/static/img/b2.png')
+        
+
+        
+    
+        
