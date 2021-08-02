@@ -1,37 +1,85 @@
-## Welcome to GitHub Pages
+doctype html
 
-You can use the [editor on GitHub](https://github.com/kaushikmt157/Mohit-Portfolio-website/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+html
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  head
 
-### Markdown
+    title Mohit Kaushik | mohitkaushik.com
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    block scripts
 
-```markdown
-Syntax highlighted code block
+    block style
 
-# Header 1
-## Header 2
-### Header 3
+        link(rel="stylesheet", href="../static/base.css")
 
-- Bulleted
-- List
+  body
 
-1. Numbered
-2. List
+    nav#navbar
 
-**Bold** and _Italic_ and `Code` text
+        div#logo
 
-[Link](url) and ![Image](src)
-```
+            ul 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+              li
 
-### Jekyll Themes
+                a(href='/')
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaushikmt157/Mohit-Portfolio-website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+                  img(src='/static/img/logo.png')
 
-### Support or Contact
+              li
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+                a(href='/') Mohit
+
+        div#option
+
+            ul
+
+                li #[a(href="/") Home]
+
+                li #[a(href="/resume") Resume]
+
+                li #[a(href="/blog") Blog]
+
+                li #[a(href="/contact") Contact]
+
+    block content
+
+    block foot
+
+      #footer
+
+        div#fikon
+
+          ul
+
+            li
+
+              a(href='https://in.linkedin.com/in/mohit-kaushik-a48357188?trk=public_profile_browsemap')
+
+                img(src='/static/img/f1.png')
+
+            li
+
+              a(href='https://www.facebook.com/mohit.kaushik.98434')
+
+                img(src='/static/img/f2.png')    
+
+            li
+
+              a(href='https://www.instagram.com/_mohit_kaushik__/')
+
+                img(src='/static/img/f3.png')  
+
+            li
+
+              a(href='https://github.com/kaushikmt157')
+
+                img(src='/static/img/f4.png')
+
+            li
+
+              a(href='https://twitter.com/MohitKa98165113')
+
+                img(src='/static/img/f5.png')
+
+        marquee(direction='left') copyright &copy; mohitkaushik.com | All Rights Reserved
